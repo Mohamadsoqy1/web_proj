@@ -1,9 +1,10 @@
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(97, 97, 96);
+    background-color: rgb(85, 83, 83);
   }
   li {
     float: left;
@@ -15,22 +16,25 @@ ul {
     padding: 16px;
     text-decoration: none;
     margin-top: 27px;
+    font-size: 18px;
   }
-  li h2{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+  li h1{
+    float: left;
+  padding: 12px;
+  padding-top: 8px;
+  color: white;
   }
   li a:hover {
-    background-color: #111111;
+    color: #111111;
+    font-weight: bold;
   }
   #aboutP{
     color: darkgray;
   }
   #list{
-    margin-top: 15px;
+  background-color: rgb(85, 83, 83);
+  height: 40px;
+  position: relative;
     width: 1920px;
     
   }
